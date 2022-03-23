@@ -1,0 +1,29 @@
+body {
+  background-image: url(../assets/image/spring-flowers.jpg);
+  background-repeat: no-repeat;
+}
+
+p {
+  padding: 30px;
+  margin: auto;
+}
+
+.paragraph-1 {
+  color: blueviolet;
+}
+.paragraph-2 {
+  color: brown;
+}
+.paragraph-3 {
+  color: aqua;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: dashed 4px black;
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+}
