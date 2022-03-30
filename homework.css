@@ -1,29 +1,65 @@
-body {
-  background-image: url(../assets/image/spring-flowers.jpg);
-  background-repeat: no-repeat;
+.contact-form-left {
+  width: 60%;
+  background-color: antiquewhite;
 }
-
-p {
-  padding: 30px;
-  margin: auto;
+.top-title {
+  color: red;
 }
-
-.paragraph-1 {
-  color: blueviolet;
+.main-title i {
+  color: red;
 }
-.paragraph-2 {
-  color: brown;
-}
-.paragraph-3 {
-  color: aqua;
-}
-
-div {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  border: dashed 4px black;
+.title {
   display: inline-block;
-  padding: 10px;
-  margin: auto;
+}
+.about {
+  display: inline-block;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: -250px;
+}
+img {
+  width: 25%;
+}
+.column-1 {
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+}
+.column-2 {
+  display: inline-block;
+  text-align: center;
+  margin-top: -300px;
+  margin-left: -130px;
+}
+.column-3 {
+  display: inline-block;
+  text-align: right;
+  margin-top: -300px;
+  margin-left: -120px;
+}
+
+.contact-form-right {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+  text-align: right;
+  padding-left: 700px;
+  margin-top: -17rem;
+}
+input {
+  margin: 5px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.input-full {
+  width: 40%;
+}
+span {
+  text-decoration: underline;
+}
+.button {
+  background-color: brown;
+  color: white;
 }
