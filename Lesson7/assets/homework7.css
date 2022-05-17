@@ -1,0 +1,73 @@
+.discount,
+.column-1,
+.column-2,
+.column-3 {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+}
+.discounts {
+  text-align: center;
+}
+div .text-block {
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
+.discounts p:hover {
+  text-decoration: underline;
+}
+
+.drawer,
+.watch,
+.chair,
+.present {
+  display: inline-block;
+  text-align: center;
+  margin-left: 150px;
+}
+.row img {
+  width: 150px;
+  height: 200px;
+}
+.about p,
+h4 {
+  color: grey;
+}
+.about {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.choose h4:hover {
+  color: black;
+  text-decoration: underline cyan;
+}
+.choose h4 {
+  display: inline-block;
+  padding: 5px;
+}
+.info p {
+  color: grey;
+}
+.info span {
+  color: rgb(63, 160, 63);
+}
+.sale,
+.new {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: 5px;
+  left: 2px;
+}
+.drawer,
+.chair {
+  position: relative;
+}
+span {
+  font-size: x-small;
+  color: white;
+}
