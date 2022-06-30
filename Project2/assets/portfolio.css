@@ -1,0 +1,372 @@
+body {
+    background: #f5f5f5;
+}
+
+body .portfolio-name {
+    margin-left: 5%;
+    color: #ffffff;
+}
+
+/*Portfolio*/
+
+.portfolio {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 1%;
+    background: #28293e;
+}
+
+.portfolio .portfolio-header {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio .portfolio-header .logo {
+    margin-left: 6%;
+    align-self: center;
+}
+
+.portfolio .portfolio-header .menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.portfolio .portfolio-header .menu ul a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.portfolio .portfolio-header .menu ul a:hover {
+    text-decoration: underline 2px solid blue;
+}
+
+.portfolio .portfolio-header .menu ul li {
+    margin-left: 32%;
+    margin-right: 32%;
+}
+
+.portfolio .portfolio-header button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-left: 55%;
+    align-self: center;
+    background: #28293e;
+}
+
+.portfolio .portfolio-header button:hover {
+    border: 2px solid blueviolet;
+}
+
+.portfolio .portfolio-header button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Epilogue";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14.35px;
+}
+
+.portfolio .portfolio-header button a:hover {
+    text-decoration: underline 2px solid blueviolet;
+}
+
+.portfolio .portfolio-title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.portfolio .portfolio-title h1 {
+    font-family: "Epilogue";
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #ffffff;
+}
+
+.portfolio .portfolio-title p {
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+/*Slider*/
+
+.slider {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: -1%;
+    background: #fdf0e9;
+}
+
+.slider .slider-menu ul {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+.slider .slider-menu ul li {
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.slider .slider-menu ul li a {
+    text-decoration: none;
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+
+}
+
+.slider .slider-menu ul li #a-1 {
+    color: #391400;
+}
+
+.slider .slider-menu ul li span {
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(57, 20, 0, 0.64);
+    position: relative;
+    top: calc(50% - 32px/2 - 4px);
+}
+
+.slider .slider-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.slider .slider-row .column {
+    width: 30%;
+    height: auto;
+    margin-bottom: -7%;
+}
+
+.slider .slider-row .column .column-img img {
+    width: 80%;
+    height: auto;
+}
+
+.slider .slider-row .column .column-button {
+    position: relative;
+    top: -25%;
+    left: 7%;
+}
+
+.slider .slider-row .column .column-button button {
+    width: 100px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 19px;
+}
+
+.slider .slider-row .column .column-button button a {
+    text-decoration: none;
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+}
+
+.slider .slider-row .column .column-info {
+    position: relative;
+    top: -27%;
+    left: 7%;
+}
+
+.slider .slider-row .column .column-info h3 {
+    font-family: "Epilogue";
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+.slider .slider-button {
+    text-align: center;
+}
+
+.slider .slider-button button {
+    width: 150px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+    border-radius: 6px;
+}
+
+.slider .slider-button button a {
+    text-decoration: none;
+    font-family: "Epilogue";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14.35px;
+    color: #391400;
+}
+
+.slider .project {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background: #EF6D58;
+    border-radius: 6px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.slider .project .project-left,
+.slider .project .project-right {
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.slider .project .project-left .project-info h2 {
+    font-family: "Epilogue";
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #ffffff;
+}
+
+.slider .project .project-left .project-info p {
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.slider .project .project-left .project-button button {
+    width: 130px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+    border-radius: 6px;
+}
+
+.slider .project .project-left .project-button button a {
+    text-decoration: none;
+    font-family: "Epilogue";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14.35px;
+    color: #391400;
+}
+
+.agency {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+
+.agency .agency-row {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.agency .agency-row .title {
+    margin-right: 17%;
+}
+
+.agency .agency-row .title h4 {
+    font-family: "Epilogue";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+}
+
+.agency .agency-row .agency-menu {
+    margin-right: 17%;
+}
+
+.agency .agency-row .agency-menu h5 {
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    color: #ef6d58;
+}
+
+.agency .agency-row .agency-menu ul li {
+    list-style: none;
+}
+
+.agency .agency-row .agency-menu ul li a {
+    text-decoration: none;
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+}
+
+.agency .agency-row .agency-logo {
+    margin-top: 2%;
+}
+
+.agency .agency-end {
+    margin-left: 5%;
+}
+
+.agency .agency-footer {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.agency .agency-footer span {
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    margin-right: 40%;
+}
+
+.agency .agency-footer p {
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+    margin-left: 5%;
+    margin-top: 0%;
+}

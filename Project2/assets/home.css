@@ -1,0 +1,1439 @@
+body {
+  background: #f5f5f5;
+}
+
+body .home-name {
+  margin-left: 5%;
+  color: #ffffff;
+}
+
+/*Home*/
+
+.home {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 1%;
+  background: #28293e;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-header .logo {
+  margin-left: 6%;
+  align-self: center;
+}
+
+.home-header .menu ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-header .menu ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.home-header .menu ul a:hover {
+  text-decoration: underline 2px solid blue;
+}
+
+.home-header .menu ul li {
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+.home-header .home-header-button {
+  width: 7%;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-left: 50%;
+  align-self: center;
+  text-align: center;
+}
+
+.home-header .home-header-button:hover {
+  border: 2px solid blueviolet;
+}
+
+.home-header-button a,
+.home-left-button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  position: relative;
+  top: 15%;
+}
+
+.home-header .home-header-button a:hover {
+  text-decoration: underline 2px solid blueviolet;
+}
+
+.home-left {
+  width: 39%;
+  height: auto;
+  margin-left: 6%;
+}
+
+.home-left .title .top-title h5 {
+  color: #ef6d58;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-top: 17%;
+}
+
+.home-left .title .main-title h1 {
+  color: #ffffff;
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -2px;
+}
+
+.home-left .title .subtitle p {
+  color: rgba(255, 255, 255, 0.64);
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.home-left .home-left-button {
+  width: 23%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background: #ef6d58;
+  text-align: center;
+}
+
+.home-left .home-left-button:hover {
+  border: 2px solid blueviolet;
+}
+
+.home-right {
+  width: 43%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: -33%;
+}
+
+/*Service*/
+
+.service {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: -1.7%;
+  background: #fdf0e9;
+}
+
+.service h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ef6d58;
+  margin-bottom: -3%;
+}
+
+.service .service-title h2 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #391400;
+}
+
+.service .service-info {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.service .service-info .design {
+  width: 45%;
+  height: auto;
+  border: 1px solid #f3d1bf;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.service .service-info .development {
+  width: 45%;
+  height: auto;
+  border: 1px solid #f3d1bf;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.service .service-info .title {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.service .service-info .title div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ef6c57;
+  background: #ef6c57;
+}
+
+.design .title div a {
+  position: relative;
+  top: 17%;
+  left: 17%;
+}
+
+.development .title div a {
+  position: relative;
+  top: 20%;
+  left: 17%;
+}
+
+.service .service-info .title h4 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.service .service-info .info p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-left: 5%;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+.service .service-info .learn-more {
+  display: flex;
+  flex-direction: row;
+}
+
+.service .service-info .learn-more div {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: #ffffff;
+}
+
+.service .service-info .learn-more span {
+  position: relative;
+  left: 38%;
+  top: 25%;
+  color: #ef6c57;
+}
+
+.service .service-info .learn-more div:hover {
+  border: 2px solid blueviolet;
+}
+
+.service .service-info .learn-more p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 1%;
+  color: #391400;
+}
+
+.service .explore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.service .explore span {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 4%;
+  margin-right: 2%;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+.service .explore p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 4%;
+  color: #391400;
+}
+
+.service .explore span:hover,
+.service .explore p:hover {
+  transform: scale(1.2);
+}
+
+/*Portfolio*/
+
+.portfolio {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: -1.7%;
+  background: #28293e;
+}
+
+.portfolio h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-left: 6%;
+  color: #ef6d58;
+}
+
+.portfolio .portfolio-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio .portfolio-info h2 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  margin-left: 6%;
+  color: #ffffff;
+}
+
+.portfolio .portfolio-info .portfolio-button {
+  width: 170px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  border-radius: 6px;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 3%;
+}
+
+.portfolio .portfolio-info .portfolio-button a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: #ffffff;
+  position: relative;
+  top: 30%;
+}
+
+.portfolio .slider {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio .slider .column {
+  border: 1px solid #3a3c56;
+}
+
+.portfolio .column .column-img img {
+  width: 80%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.portfolio .slider .column .column-button {
+  width: 90px;
+  height: 38px;
+  background: #ffffff;
+  border-radius: 19px;
+  text-align: center;
+  position: relative;
+  top: -25%;
+  left: 15%;
+}
+
+.portfolio .slider .column .column-button p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+  position: relative;
+  top: 10%;
+}
+
+.portfolio .slider .column .column-info h3 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.portfolio .slider .column .column-info {
+  position: relative;
+  top: -25%;
+  left: 15%;
+}
+
+/*Designer*/
+
+.designer {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  background: #fdf0e9;
+}
+
+.designer .designer-left {
+  width: 45%;
+  height: auto;
+}
+
+.designer .designer-right {
+  width: 45%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: -40%;
+}
+
+.designer-right .title .top-title h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ef6d58;
+}
+
+.designer-right .title .main-title h2 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+
+.designer-right .title .subtitle span {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+
+.designer-right .title .subtitle p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+.designer-right .designer-right-button {
+  width: 120px;
+  height: 38px;
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.designer-right .designer-right-button a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: #391400;
+  position: relative;
+  top: 23%;
+}
+
+.designer .designer-info {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.designer .designer-info .designer-info-left {
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 1px solid #f3d1bf;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.designer .designer-info .designer-info-right {
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 1px solid #f3d1bf;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.designer .designer-info .oval {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ef6c57;
+  margin-top: 12%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.designer .designer-info .oval img {
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+.designer .designer-info .info h3 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+}
+
+.designer .designer-info .info p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+
+/*Feature*/
+
+.feature {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: -1.7%;
+  background: #28293e;
+}
+
+.feature .feature-left {
+  width: 45%;
+  height: auto;
+  margin-left: 6%;
+}
+
+.feature .feature-left .title .top-title h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ef6d58;
+}
+
+.feature .feature-left .title .main-title h2 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.feature .feature-left .title .subtitle p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.feature .feature-left .menu ul a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-left: 5%;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.feature .feature-left .menu ul li {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+.feature .feature-right {
+  width: 45%;
+  height: auto;
+  margin-left: 45%;
+  margin-top: -35%;
+}
+
+/*Star-img*/
+
+.star-img {
+  margin-top: -5.3%;
+  margin-left: 8%;
+  position: relative;
+}
+
+.star-img .shape {
+  position: absolute;
+  top: 40%;
+  left: 4.3%;
+}
+
+/*Contact-info*/
+
+.contact-info {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: -4.8%;
+  background: #f9e5da;
+}
+
+.contact-info .info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-info .info .left-info {
+  width: 25%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.contact-info .info .left-info h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ef6d58;
+}
+
+.contact-info .info .left-info h4 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+
+.contact-info .info .left-info button {
+  background: #ef6d58;
+  border-radius: 6px;
+  padding: 2%;
+}
+
+.contact-info .info .left-info button a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: #ffffff;
+}
+
+.contact-info .info .main-info {
+  width: 30%;
+  height: auto;
+  margin-top: 11%;
+}
+
+.contact-info .info .main-info p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+.contact-info .info .right-img {
+  width: 40%;
+  height: auto;
+  margin-top: 7%;
+}
+
+.contact-info .info .right-img .block {
+  position: relative;
+  z-index: 20;
+}
+
+.contact-info .info .right-img .path {
+  position: relative;
+  top: -56%;
+  left: 15%;
+  z-index: 10;
+}
+
+/*Testimonial*/
+
+.testimonial {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: -15%;
+  background: #fdf0e9;
+}
+
+.testimonial .title {
+  text-align: center;
+}
+
+.testimonial .title .top-title h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ef6d58;
+}
+
+.testimonial .title .main-title h2 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+
+.testimonial .row {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.testimonial .row .column {
+  width: 30%;
+  height: auto;
+  box-sizing: border-box;
+  border: 1px solid #f3d1bf;
+}
+
+.testimonial .row #cl-1 {
+  border-radius: 6px 0px 0px 6px;
+}
+
+.testimonial .row #cl-2 {
+  background: #ffffff;
+  box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+  border-radius: 0px 0px 6px 6px;
+}
+
+.testimonial .row #cl-2:hover {
+  transform: scale(1.1);
+}
+
+.testimonial .row #cl-3 {
+  border-radius: 0px 6px 6px 0px;
+}
+
+.testimonial .row .column .column-info p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  margin-left: 8%;
+}
+
+.testimonial .row .column .column-img img {
+  margin-top: 7%;
+  margin-left: 8%;
+}
+
+.testimonial .row .column .column-name {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8%;
+}
+
+.testimonial .row .column .column-name img {
+  width: 80px;
+  height: 80px;
+  margin-right: 5%;
+  margin-top: 7%;
+}
+
+.testimonial .row .column .column-name h4 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+
+.testimonial .row .column .column-name p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+}
+
+.testimonial .button {
+  width: 125px;
+  height: 30px;
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 38%;
+}
+
+.testimonial .button a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: #391400;
+  position: relative;
+  top: 13%;
+}
+
+/*FAQ*/
+
+.faq {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: -1.7%;
+  background: #28293e;
+}
+
+.faq .faq-left {
+  width: 40%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.faq .faq-left .title .top-title h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ef6d58;
+}
+
+.faq .faq-left .title .main-title h3 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.faq .faq-left .title .subtitle p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.faq .faq-left .contact {
+  margin-left: 0%;
+}
+
+.faq .faq-left .contact a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.faq .faq-right {
+  width: 45%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: -20%;
+}
+
+.faq .faq-right .faq-info {
+  width: 85%;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+  border-radius: 6px 6px 0px 0px;
+}
+
+.faq .faq-right .faq-info .faq-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.faq .faq-right .faq-info .faq-header h4 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.faq .faq-right .faq-info .faq-header a {
+  margin-top: 5%;
+}
+
+.faq .faq-right .faq-info p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  margin-left: 5%;
+}
+
+.faq .faq-right .faq-menu {
+  margin-top: -2.5%;
+}
+
+.faq .faq-right .faq-menu ul li {
+  width: 517px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 1px solid #3a3c56;
+  margin-left: -7%;
+}
+
+.faq .faq-right .faq-menu ul li h4 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-left: 5%;
+}
+
+.faq .faq-right .faq-menu ul li #h4-1 {
+  margin-right: 9%;
+}
+
+.faq .faq-right .faq-menu ul li #h4-2 {
+  margin-right: 37%;
+}
+
+.faq .faq-right .faq-menu ul li #h4-3 {
+  margin-right: 17%;
+}
+
+.faq .faq-right .faq-menu ul li a {
+  margin-top: 5%;
+}
+
+.faq .faq-logo {
+  width: 90%;
+  height: auto;
+}
+
+.faq .faq-logo ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.faq .faq-logo ul li {
+  list-style: none;
+  margin-right: 12%;
+}
+
+/*Blog*/
+
+.blog {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: -1.7%;
+  background: #fdf0e9;
+}
+
+.blog .blog-left {
+  width: 60%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.blog .blog-left .blog-title h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ef6d58;
+}
+
+.blog .blog-left .blog-title h2 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+
+.blog .blog-left .blog-img img {
+  width: 60%;
+  height: auto;
+}
+
+.blog .blog-left .blog-subtitle h3 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+}
+
+.blog p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+
+.blog span {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+.blog h4 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+
+.blog a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: #391400;
+}
+
+.blog .blog-right {
+  width: 25%;
+  height: auto;
+  margin-left: 65%;
+  margin-top: -50%;
+}
+
+.blog .blog-right .blog-button {
+  width: 150px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+.blog .blog-right .blog-button a {
+  position: relative;
+  top: 23%;
+}
+
+.blog .end {
+  margin-left: 5%;
+}
+
+.blog footer {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+
+.blog .footer-left {
+  width: 40%;
+  height: auto;
+}
+
+.blog .footer-right {
+  width: 45%;
+  height: auto;
+}
+
+.blog .footer-right button {
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+}
+
+.blog .footer-right input {
+  width: 250px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #f3d1bf;
+  border-radius: 6px;
+  margin-right: 5%;
+}
+
+.blog .footer-right form {
+  margin-left: 25%;
+  margin-top: 15%;
+}
+
+/*Contact*/
+
+.contact {
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin-left: 5%;
+  background: #28293e;
+}
+
+.contact .contact-left {
+  width: 45%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.contact .contact-left .contact-form {
+  width: 400px;
+  height: 350px;
+  background: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 5%;
+}
+
+.contact .contact-left .contact-form form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.contact .contact-left .contact-form h4 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+  margin-left: 15%;
+}
+
+.contact .contact-left .contact-form form input {
+  width: 270px;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid #f3d1bf;
+  border-radius: 6px;
+  margin-bottom: 5%;
+}
+
+.contact .contact-left .contact-form form #text-message {
+  width: 270px;
+  height: 75px;
+}
+
+.contact .contact-left .contact-form form button {
+  width: 110px;
+  height: 35px;
+  background: #ef6d58;
+  border-radius: 6px;
+  margin-left: 50%;
+}
+
+.contact .contact-left .contact-form form button a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: #ffffff;
+}
+
+.contact .contact-right {
+  width: 40%;
+  height: auto;
+}
+
+.contact .contact-right .contact-title h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ef6d58;
+}
+
+.contact .contact-right .contact-title h2 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.contact .contact-right .contact-title p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.contact .contact-right .contact-right-info ul li {
+  display: flex;
+  margin-top: 5%;
+}
+
+.contact .contact-right .contact-right-info ul li a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.contact .contact-right .contact-right-info ul li div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ef6d58;
+  margin-right: 5%;
+  margin-top: -1%;
+}
+
+.contact .contact-right .contact-right-info ul li img {
+  position: relative;
+  top: 21%;
+  left: 19%;
+}
+
+/*Project*/
+
+.project {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: -1.7%;
+  background: #fdf0e9;
+}
+
+.project .project-left {
+  width: 40%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.project .project-left .project-title h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ef6d58;
+}
+
+.project .project-left .project-title h2 {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+
+.project .project-left .project-title p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+.project .project-left .project-button {
+  width: 150px;
+  height: 40px;
+  background: #ef6d58;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.project .project-left .project-button a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  color: #ffffff;
+  position: relative;
+  top: 25%;
+}
+
+.project .project-right {
+  width: 45%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: -30%;
+}
+
+.project .project-slider {
+  width: 96%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.project .project-slider img {
+  width: 16%;
+  height: auto;
+}
+
+/*Personal*/
+
+.personal {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  background: #28293e;
+}
+
+.personal .personal-row {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+
+.personal .personal-row .title {
+  margin-right: 15%;
+}
+
+.personal .personal-row .title h4 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.personal .personal-row .personal-menu {
+  margin-right: 15%;
+}
+
+.personal .personal-row .personal-menu h5 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  color: #ef6d58;
+}
+
+.personal .personal-row .personal-menu ul li {
+  list-style: none;
+}
+
+.personal .personal-row .personal-menu ul li a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.personal .personal-row .personal-logo {
+  margin-top: 2%;
+}
+
+.personal .personal-end {
+  margin-left: 5%;
+}
+
+.personal .personal-footer {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+
+.personal .personal-footer span {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+  margin-right: 40%;
+}
+
+.personal .personal-footer p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-left: 5%;
+  margin-top: 0%;
+}
